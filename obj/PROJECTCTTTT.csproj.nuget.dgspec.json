@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ira\\source\\repos\\Project\\Project\\PROJECTCTTTT.csproj": {}
+    "C:\\Users\\Ira\\source\\repos\\Pg\\PROJECTCTTTT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ira\\source\\repos\\Project\\Project\\PROJECTCTTTT.csproj": {
+    "C:\\Users\\Ira\\source\\repos\\Pg\\PROJECTCTTTT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ira\\source\\repos\\Project\\Project\\PROJECTCTTTT.csproj",
+        "projectUniqueName": "C:\\Users\\Ira\\source\\repos\\Pg\\PROJECTCTTTT.csproj",
         "projectName": "PROJECTCTTTT",
-        "projectPath": "C:\\Users\\Ira\\source\\repos\\Project\\Project\\PROJECTCTTTT.csproj",
+        "projectPath": "C:\\Users\\Ira\\source\\repos\\Pg\\PROJECTCTTTT.csproj",
         "packagesPath": "C:\\Users\\Ira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ira\\source\\repos\\Project\\Project\\obj\\",
+        "outputPath": "C:\\Users\\Ira\\source\\repos\\Pg\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ira\\AppData\\Roaming\\NuGet\\NuGet.Config",

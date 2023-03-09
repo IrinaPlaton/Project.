@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vlCBjFCcTIlNj8jqofbEVIURjB6HQfyOL87mMJH9zsdJ1jxngoM1RJAejZTTuSYPZoXd+l/QyxrUUHkWSl+ahg==",
+  "dgSpecHash": "Spu99L3eRKjvIZ/uyGmpdgdymV4mekaDJXb8wm2tmpC89p5r0M6J/ClEKsoukicj2hbGdOJ3f4AW3RbuEQuFIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ira\\source\\repos\\Project\\Project\\PROJECTCTTTT.csproj",
+  "projectFilePath": "C:\\Users\\Ira\\source\\repos\\Pg\\PROJECTCTTTT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ira\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Ira\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
