@@ -1,0 +1,42 @@
+﻿@model IEnumerable<PROJECTCTTTT.Models.Student>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>List</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+                @Html.DisplayNameFor(model => model.FirstName)
+                @Html.DisplayNameFor(model => model.LastName)
+
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                @Html.DisplayFor(modelItem => item.FirstName)
+                    @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+                @for (int i = 1; i < 31; i++)
+                {
+                            <td>@i</td>
+                            <td>@Html.CheckBox(i.ToString(),false)</td>
+                    
+                }
+                <td>
+               
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,55 @@
+﻿@using PROJECTCTTTT.Controllers.Services;
+@model PROJECTCTTTT.Models.Course
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Course</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Payment" class="control-label"></label>
+                @Html.DropDownListFor( m => m.Payment, new SelectList(Enum.GetValues(typeof(Payment))) , "Payment")
+            </div>
+             <div class="form-group">
+                <label asp-for="ModuleList" class="control-label"></label>
+                <span asp-validation-for="ModuleList" class="text-danger"></span>
+            @Html.DropDownListFor(m => m.ModuleList, 
+            new MultiSelectList(ModuleServices.moduleNames()), 
+            new { multiple = "multiple"})
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="CourseList">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
